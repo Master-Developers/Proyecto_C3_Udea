@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e8edb728-40d2-4e5a-96b5-cbaef8614e05" name="Changes" comment="Segundo Commit">
+=======
+    <list default="true" id="e8edb728-40d2-4e5a-96b5-cbaef8614e05" name="Changes" comment="Primer Commit">
+>>>>>>> 3523437edac66dacf78205b43526001183e8881f
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +63,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer Commit" />
+<<<<<<< HEAD
     <MESSAGE value="Segundo Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Segundo Commit" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="Primer Commit" />
+>>>>>>> 3523437edac66dacf78205b43526001183e8881f
   </component>
 </project>
