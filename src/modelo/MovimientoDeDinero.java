@@ -1,46 +1,52 @@
 package modelo;
 
-public class MovimientoDeDinero {
+public class MovimientoDeDinero implements IMovimientoDinero{
 
     //Atributos-----------------------------------------------------------------------
-    protected String nombre;
+    protected Empleado empleado;
     protected int documento;
-    protected double ingresos;
-    protected double egresos;
     protected double saldo;
-
     //---------------------------------------------------------------------------------
-    public MovimientoDeDinero(String nombre, int documento, double ingresos, double egresos, double saldo) {
-        this.nombre = nombre;
+    //Constructor y sobrecarga de constructor
+    public MovimientoDeDinero(Empleado empleado, int documento, double saldo) {
+        this.empleado = empleado;
         this.documento = documento;
-        this.ingresos = ingresos;
-        this.egresos = egresos;
         this.saldo = saldo;
     }
-
-    public MovimientoDeDinero(int documento, double ingresos) {
-        this.documento = documento;
-        this.ingresos = ingresos;
+    public MovimientoDeDinero(Empleado empleado, double saldo) {
+        this.empleado = empleado;
+        this.saldo = saldo;
+    }
+    public MovimientoDeDinero(Empleado empleado) {
+        this.empleado = empleado;
     }
     //Metodoss------------------------------------------------------------------------------
-    public void ingresarDinero(double valor){
-
+    //-----------------------------------------------------------------------------------------
+    @Override
+    public double ingresarDinero(Empleado empleado, double cantidad) {
+        //indicar la cantidad de dinero que desea ingresar
+        if (cantidad>0){
+            return saldo+=cantidad;
+        }else {
+            return Double.parseDouble("El dinero ingresado debe ser mayor a cero ");
+        }
     }
-
-    public void retirarDinero(double valor){
-
-    }
-    public void transferirDinero(double valor){
-
+    @Override
+    public double retirarDinero(Empleado empleado, double cantidad) {
+        if (cantidad>0){
+            return saldo-cantidad;
+        }else {
+            return Double.parseDouble("El dinero retirado debe ser mayor a cero ");
+        }
     }
     //-----------------------------------------------------------------------------------------
-    //Getters y setters----------------------------------------------------------
-    public String getNombre() {
-        return nombre;
+    //Getters y setters------------------------------------------------------------------------
+    public Empleado getEmpleado() {
+        return empleado;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setEmpleado(Empleado empleado) {
+        this.empleado = empleado;
     }
 
     public int getDocumento() {
@@ -51,22 +57,6 @@ public class MovimientoDeDinero {
         this.documento = documento;
     }
 
-    public double getIngresos() {
-        return ingresos;
-    }
-
-    public void setIngresos(double ingresos) {
-        this.ingresos = ingresos;
-    }
-
-    public double getEgresos() {
-        return egresos;
-    }
-
-    public void setEgresos(double egresos) {
-        this.egresos = egresos;
-    }
-
     public double getSaldo() {
         return saldo;
     }
@@ -74,5 +64,5 @@ public class MovimientoDeDinero {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
-    //
+    //-----------------------------------------------------------------------------------------------
 }
