@@ -4,15 +4,9 @@ public class MovimientoDeDinero implements IMovimientoDinero{
 
     //Atributos-----------------------------------------------------------------------
     protected Empleado empleado;
-    protected int documento;
     protected double saldo;
     //---------------------------------------------------------------------------------
     //Constructor y sobrecarga de constructor
-    public MovimientoDeDinero(Empleado empleado, int documento, double saldo) {
-        this.empleado = empleado;
-        this.documento = documento;
-        this.saldo = saldo;
-    }
     public MovimientoDeDinero(Empleado empleado, double saldo) {
         this.empleado = empleado;
         this.saldo = saldo;
@@ -47,14 +41,6 @@ public class MovimientoDeDinero implements IMovimientoDinero{
 
     public void setEmpleado(Empleado empleado) {
         this.empleado = empleado;
-    }
-
-    public int getDocumento() {
-        return documento;
-    }
-
-    public void setDocumento(int documento) {
-        this.documento = documento;
     }
 
     public double getSaldo() {

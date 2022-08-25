@@ -7,8 +7,6 @@ public class Empleado {
         private String Empresa;
         private String rol;
 
-<<<<<<< HEAD
-=======
     public Empleado(String nombre, String correo, String empresa, String rol) {
         Nombre = nombre;
         Correo = correo;
@@ -16,7 +14,6 @@ public class Empleado {
         this.rol = rol;
     }
 
->>>>>>> 07d1017 (Se prueban los metodos de la clase MovimientoDinero)
     public String getNombre() {
         return Nombre;
     }

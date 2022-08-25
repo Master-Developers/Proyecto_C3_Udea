@@ -10,10 +10,15 @@ public class Main {
 
         Empleado empleado1 =  new Empleado("Pedro","pp@gorads.com","Eterprise","Operario");
 
-        MovimientoDeDinero movdinero = new MovimientoDeDinero(empleado1,23423,132.3);
+        MovimientoDeDinero movdinero = new MovimientoDeDinero(empleado1,123.41);
+
         movdinero.ingresarDinero(empleado1,10.0);
 
         System.out.println("El empleado "+empleado1.getNombre()+" ahora tiene el saldo de "+movdinero.getSaldo());
+
+        movdinero.retirarDinero(empleado1,5);
+
+        System.out.println( "El empleado ahora tiene "+movdinero.getSaldo());
 
 
     }
