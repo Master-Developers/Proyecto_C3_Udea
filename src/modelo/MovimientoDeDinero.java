@@ -28,7 +28,7 @@ public class MovimientoDeDinero implements IMovimientoDinero{
     @Override
     public double retirarDinero(Empleado empleado, double cantidad) {
         if (cantidad>0){
-            return saldo-cantidad;
+            return saldo-=cantidad;
         }else {
             return Double.parseDouble("El dinero retirado debe ser mayor a cero ");
         }

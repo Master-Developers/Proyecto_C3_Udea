@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="e8edb728-40d2-4e5a-96b5-cbaef8614e05" name="Changes" comment="Segundo Commit">
-=======
-    <list default="true" id="e8edb728-40d2-4e5a-96b5-cbaef8614e05" name="Changes" comment="Primer Commit">
->>>>>>> 3523437edac66dacf78205b43526001183e8881f
+    <list default="true" id="216b426c-8724-4bc4-a2c1-c4d3f89be825" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DiagramaUML.mdj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/MovimientoDeDinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/MovimientoDeDinero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,35 +19,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2DXrT31csqKQcTVoqSEJB9N9YFb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2DtwfPW9A2X3cmbtJtPu31KqrdU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mateo/Documents/Idea projects/ProductosEjemplo&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e8edb728-40d2-4e5a-96b5-cbaef8614e05" name="Changes" comment="" />
-      <created>1660856278273</created>
+      <changelist id="216b426c-8724-4bc4-a2c1-c4d3f89be825" name="Changes" comment="" />
+      <created>1661531791247</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1660856278273</updated>
+      <updated>1661531791247</updated>
     </task>
-    <task id="LOCAL-00001" summary="Primer Commit">
-      <created>1660856338003</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1660856338003</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,14 +52,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Primer Commit" />
-<<<<<<< HEAD
-    <MESSAGE value="Segundo Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segundo Commit" />
-=======
-    <option name="LAST_COMMIT_MESSAGE" value="Primer Commit" />
->>>>>>> 3523437edac66dacf78205b43526001183e8881f
   </component>
 </project>

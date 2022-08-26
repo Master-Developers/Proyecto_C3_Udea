@@ -1,11 +1,10 @@
 package modelo;
 
 public class Empleado {
-
         private String Nombre;
         private String Correo;
         private String Empresa;
-        private String rol;
+        private String rol; //Administratico operativo
 
     public Empleado(String nombre, String correo, String empresa, String rol) {
         Nombre = nombre;

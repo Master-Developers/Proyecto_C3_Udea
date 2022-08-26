@@ -12,11 +12,14 @@ public class Main {
 
         MovimientoDeDinero movdinero = new MovimientoDeDinero(empleado1,123.41);
 
+
+        //Pruebas de movimiento de dinero
+
         movdinero.ingresarDinero(empleado1,10.0);
 
         System.out.println("El empleado "+empleado1.getNombre()+" ahora tiene el saldo de "+movdinero.getSaldo());
 
-        movdinero.retirarDinero(empleado1,5);
+        movdinero.retirarDinero(empleado1,140);
 
         System.out.println( "El empleado ahora tiene "+movdinero.getSaldo());
 
