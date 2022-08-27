@@ -8,6 +8,7 @@ public class Empleado {
     private String Correo;
     private String Empresa;
     private String rol; // Administratico operativo
+
     // Constructor
 
     public Empleado(String nombre, int cedula, int numero_Celular, String correo, String empresa) {
@@ -16,6 +17,10 @@ public class Empleado {
         Numero_Celular = numero_Celular;
         Correo = correo;
         Empresa = empresa;
+
+    }
+
+    public Empleado(String rol) {
         this.rol = rol;
     }
 
@@ -67,4 +72,5 @@ public class Empleado {
     public void setNumero_Celular(int numero_Celular) {
         Numero_Celular = numero_Celular;
     }
+
 }
