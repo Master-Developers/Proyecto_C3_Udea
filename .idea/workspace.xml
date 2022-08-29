@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216b426c-8724-4bc4-a2c1-c4d3f89be825" name="Changes" comment="Prueba de movimiento de dinero">
-      <change afterPath="$PROJECT_DIR$/src/modelo/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modelo/Rol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiagramaUML.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/DiagramaUML.mdj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/IMovimientoDinero.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modelo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modelo/MovimientoDeDinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelo/MovimientoDeDinero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -72,10 +72,10 @@ public class Main {
         movdinero4.retirarDinero(empleado4, 500000);
         movdinero5.retirarDinero(empleado5, 700000);
 
-        System.out.println("El empleado1 ha pagado facturas y ahora tiene " + movdinero1.getMontoInicial()+"$");
-        System.out.println("El empleado2 ha pagado facturas y ahora tiene " + movdinero2.getMontoInicial()+"$");
-        System.out.println("El empleado3 ha pagado facturas y ahora tiene " + movdinero3.getMontoInicial()+"$");
-        System.out.println("El empleado4 ha pagado facturas y ahora tiene " + movdinero4.getMontoInicial()+"$");
-        System.out.println("El empleado5 ha pagado facturas y ahora tiene " + movdinero5.getMontoInicial()+"$");
+        System.out.println("El empleado "+ empleado1.getNombre()+" ha pagado facturas y ahora tiene " + movdinero1.getMontoInicial()+"$");
+        System.out.println("El empleado "+ empleado2.getNombre()+" ha pagado facturas y ahora tiene " + movdinero2.getMontoInicial()+"$");
+        System.out.println("El empleado "+ empleado3.getNombre()+" ha pagado facturas y ahora tiene " + movdinero3.getMontoInicial()+"$");
+        System.out.println("El empleado "+empleado4.getNombre() + " ha pagado facturas y ahora tiene " + movdinero4.getMontoInicial()+"$");
+        System.out.println("El empleado "+ empleado5.getNombre()+ " ha pagado facturas y ahora tiene " + movdinero5.getMontoInicial()+"$");
     }
 }
