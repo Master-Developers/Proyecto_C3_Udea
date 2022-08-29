@@ -1,43 +1,38 @@
 package modelo;
 
-public class MovimientoDeDinero implements IMovimientoDinero {
+public class MovimientoDeDinero {
 
     // Atributos-----------------------------------------------------------------------
     protected Empleado empleado;
-    protected double saldo;
+    protected double montoInicial;
 
     // ---------------------------------------------------------------------------------
     // Constructor y sobrecarga de constructor
-    public MovimientoDeDinero(Empleado empleado, double saldo) {
+    public MovimientoDeDinero(Empleado empleado, double montoInicial) {
         this.empleado = empleado;
-        this.saldo = saldo;
+        this.montoInicial = montoInicial;
     }
-
     public MovimientoDeDinero(Empleado empleado) {
         this.empleado = empleado;
     }
 
     // Metodoss------------------------------------------------------------------------------
     // -----------------------------------------------------------------------------------------
-    @Override
-    public double ingresarDinero(Empleado empleado, double cantidad) {
+    public double ingresarDinero(Empleado empleado, double monto) {
         // indicar la cantidad de dinero que desea ingresar
-        if (cantidad > 0) {
-            return saldo += cantidad;
+        if (monto > 0) {
+            return montoInicial += monto;
         } else {
             return Double.parseDouble("El dinero ingresado debe ser mayor a cero ");
         }
     }
-
-    @Override
-    public double retirarDinero(Empleado empleado, double cantidad) {
-        if (cantidad > 0) {
-            return saldo -= cantidad;
+    public double retirarDinero(Empleado empleado, double monto) {
+        if (monto > 0) {
+            return montoInicial -= monto;
         } else {
             return Double.parseDouble("El dinero retirado debe ser mayor a cero ");
         }
     }
-
     // -----------------------------------------------------------------------------------------
     // Getters y
     // setters------------------------------------------------------------------------
@@ -49,12 +44,12 @@ public class MovimientoDeDinero implements IMovimientoDinero {
         this.empleado = empleado;
     }
 
-    public double getSaldo() {
-        return saldo;
+    public double getMontoInicial() {
+        return montoInicial;
     }
 
-    public void setSaldo(double saldo) {
-        this.saldo = saldo;
+    public void setMontoInicial(double montoInicial) {
+        this.montoInicial = montoInicial;
     }
     // -----------------------------------------------------------------------------------------------
 }

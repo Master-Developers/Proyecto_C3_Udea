@@ -6,25 +6,20 @@ public class Empleado {
     private int Cedula;
     private int Numero_Celular;
     private String Correo;
-    private String Empresa;
-    private String rol; // Administratico operativo
-
+    private Empresa empresa;
+    private Rol rol; // Administratico operativo
     // Constructor
-
-    public Empleado(String nombre, int cedula, int numero_Celular, String correo, String empresa) {
+    public Empleado(String nombre, int cedula, int numero_Celular, String correo, Empresa empresa, Rol rol) {
         Nombre = nombre;
         Cedula = cedula;
         Numero_Celular = numero_Celular;
         Correo = correo;
-        Empresa = empresa;
-
-    }
-
-    public Empleado(String rol) {
+        this.empresa = empresa;
         this.rol = rol;
     }
 
     // Getter y Setter
+    //--------------------------------------------------------------------------------------------
     public String getNombre() {
         return Nombre;
     }
@@ -41,19 +36,19 @@ public class Empleado {
         Correo = correo;
     }
 
-    public String getEmpresa() {
-        return Empresa;
+    public Empresa getEmpresa() {
+        return empresa;
     }
 
-    public void setEmpresa(String empresa) {
-        Empresa = empresa;
+    public void setEmpresa(Empresa empresa) {
+        this.empresa = empresa;
     }
 
-    public String getRol() {
+    public Rol getRol() {
         return rol;
     }
 
-    public void setRol(String rol) {
+    public void setRol(Rol rol) {
         this.rol = rol;
     }
 
@@ -72,5 +67,4 @@ public class Empleado {
     public void setNumero_Celular(int numero_Celular) {
         Numero_Celular = numero_Celular;
     }
-
 }
